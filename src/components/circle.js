@@ -1,7 +1,7 @@
-require("./Shape");
+import Shape from "./shape";
 
 // declare class
-class Circle {
+class Circle extends Shape {
   constructor(radius, colour, name) {
     super(radius, colour, name);
     this.radius = radius;

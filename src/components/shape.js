@@ -15,6 +15,8 @@ class Shape {
     console.log("the area is" + area1);
   }
 }
+Shape(4, 5, "red", "rectangle");
+Shape.calculateArea();
 
 module.exports(Shape);
 // export class using module.exports
